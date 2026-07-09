@@ -1,0 +1,22 @@
+{
+  "name": "Morfu.club",
+  "short_name": "Morfu",
+  "description": "Magical adventures, Explorer Backpack activities and children’s books for little explorers.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff5d8",
+  "theme_color": "#fff5d8",
+  "icons": [
+    {
+      "src": "assets/brand/favicon-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/brand/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
