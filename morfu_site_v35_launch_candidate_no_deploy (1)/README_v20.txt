@@ -1,0 +1,1 @@
+Morfu.club v20 prepared package: stronger homepage Starter Pack section, how-it-works section, homepage FAQ, parent guidance, and footer CTA on utility pages. Do not deploy until you are ready to spend Netlify credits.
