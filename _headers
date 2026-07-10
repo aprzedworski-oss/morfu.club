@@ -16,22 +16,3 @@
 
 /robots.txt
   Cache-Control: public, max-age=3600
-
-/assets/*.webp
-  Cache-Control: public, max-age=31536000, immutable
-
-
-/assets/*.avif
-  Cache-Control: public, max-age=31536000, immutable
-
-/sitemap-index.xml
-  Cache-Control: public, max-age=3600
-
-/thank-you
-  X-Robots-Tag: noindex, follow
-
-/thank-you.html
-  X-Robots-Tag: noindex, follow
-
-/404.html
-  X-Robots-Tag: noindex, follow

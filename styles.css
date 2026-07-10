@@ -76,8 +76,7 @@ a { color: inherit; text-decoration: none; }
   padding: 96px clamp(22px, 6vw, 94px);
   background-image:
     linear-gradient(90deg, rgba(255, 250, 238, .98) 0%, rgba(255, 250, 238, .88) 29%, rgba(255, 250, 238, .20) 55%, rgba(255, 250, 238, .02) 74%),
-    url("assets/hero/hero-alt.webp");
-  background-image: image-set(url("assets/hero/hero-alt.avif") type("image/avif"), url("assets/hero/hero-alt.webp") type("image/webp"));
+    url('assets/hero/hero-alt.png');
   background-size: cover;
   background-position: center right;
   border-bottom-left-radius: 50% 7%;
@@ -199,8 +198,7 @@ h2 { font-size: clamp(34px, 5vw, 64px); }
     padding: min(112vw, 535px) 18px 42px;
     background-image:
       linear-gradient(180deg, rgba(255,250,238,.00) 0%, rgba(255,250,238,.04) 45%, rgba(255,250,238,.94) 72%, rgba(255,250,238,1) 100%),
-      url("assets/hero/hero-desktop.webp");
-    background-image: image-set(url("assets/hero/hero-desktop.avif") type("image/avif"), url("assets/hero/hero-desktop.webp") type("image/webp"));
+      url('assets/hero/hero-desktop.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center top;
@@ -284,8 +282,7 @@ h2 { font-size: clamp(34px, 5vw, 64px); }
   padding: 90px clamp(22px, 6vw, 94px);
   background-image:
     linear-gradient(90deg, rgba(255,250,238,.98) 0%, rgba(255,250,238,.88) 34%, rgba(255,250,238,.18) 64%, rgba(255,250,238,.02) 100%),
-    url("assets/hero/hero-alt.webp");
-  background-image: image-set(url("assets/hero/hero-alt.avif") type("image/avif"), url("assets/hero/hero-alt.webp") type("image/webp"));
+    url('assets/hero/hero-alt.png');
   background-size: cover;
   background-position: center right;
   border-bottom-left-radius: 45% 6%;
@@ -332,8 +329,7 @@ h2 { font-size: clamp(34px, 5vw, 64px); }
     padding: min(80vw, 420px) 18px 42px;
     background-image:
       linear-gradient(180deg, rgba(255,250,238,.00) 0%, rgba(255,250,238,.08) 48%, rgba(255,250,238,.96) 76%, rgba(255,250,238,1) 100%),
-      url("assets/hero/hero-desktop.webp");
-    background-image: image-set(url("assets/hero/hero-desktop.avif") type("image/avif"), url("assets/hero/hero-desktop.webp") type("image/webp"));
+      url('assets/hero/hero-desktop.png');
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center top;
@@ -2541,31 +2537,4 @@ img { height: auto; }
 .hidden-feather-v31.is-found { pointer-events: none; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-}
-
-/* v39 — Morfu Knowledge Hub */
-.knowledge-hero-v39{min-height:520px;display:grid;place-items:center;padding:130px 24px 80px;text-align:center;background:radial-gradient(circle at 50% 20%,rgba(255,255,255,.95),rgba(255,246,205,.88) 42%,rgba(205,241,223,.9));}
-.knowledge-hero-v39>div{max-width:850px}.knowledge-hero-v39 h1{font-size:clamp(44px,7vw,82px);margin:.15em 0}.knowledge-hero-v39 p{font-size:clamp(18px,2vw,23px);line-height:1.6}.knowledge-hero-v39 .button-row{justify-content:center}
-.knowledge-grid-v39{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1180px;margin:0 auto}.knowledge-card-v39 a{display:block;height:100%;padding:30px;border-radius:30px;background:rgba(255,255,255,.92);box-shadow:0 18px 45px rgba(66,77,45,.12);border:1px solid rgba(81,111,74,.12);text-decoration:none;color:inherit;transition:.25s ease}.knowledge-card-v39 a:hover{transform:translateY(-6px);box-shadow:0 25px 60px rgba(66,77,45,.18)}.knowledge-card-v39 h2{font-size:clamp(25px,3vw,36px);margin:12px 0}.knowledge-card-v39 p{line-height:1.7}.knowledge-card-v39 strong{color:#28704c}.knowledge-tag-v39{display:inline-block;padding:8px 13px;border-radius:999px;background:#fff4b4;color:#6a5110;font-weight:900;font-size:13px;text-transform:uppercase;letter-spacing:.08em}
-.knowledge-principles-v39{background:linear-gradient(180deg,#effaf4,#fff)}.knowledge-principle-grid-v39,.knowledge-mini-grid-v39{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1100px;margin:0 auto}.knowledge-principle-grid-v39>div,.knowledge-mini-grid-v39>a{padding:24px;border-radius:26px;background:#fff;box-shadow:0 15px 35px rgba(51,80,59,.1)}.knowledge-principle-grid-v39 strong,.knowledge-mini-grid-v39 strong{display:block;font-size:21px;margin-bottom:8px}.knowledge-mini-grid-v39>a{text-decoration:none;color:inherit;display:flex;flex-direction:column;gap:8px;transition:.2s ease}.knowledge-mini-grid-v39>a:hover{transform:translateY(-4px)}.knowledge-teaser-v39{background:linear-gradient(135deg,#fff5cb,#e8f8ef)}.center-actions-v39{justify-content:center;margin-top:28px}
-.article-shell-v39{max-width:940px;margin:0 auto;padding:130px 24px 80px}.breadcrumbs-v39{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-weight:800;font-size:14px;margin-bottom:34px}.breadcrumbs-v39 a{color:#28704c}.article-header-v39{text-align:center;margin-bottom:45px}.article-header-v39 h1{font-size:clamp(40px,6vw,72px);margin:.2em 0}.article-deck-v39{font-size:clamp(19px,2.2vw,24px);line-height:1.65}.article-meta-v39{font-size:14px;font-weight:800;opacity:.72}.article-content-v39{display:grid;gap:18px}.fact-block-v39{padding:27px 30px;border-radius:26px;background:#fffdf4;border:1px solid rgba(95,81,39,.12);box-shadow:0 12px 30px rgba(73,67,37,.07)}.fact-block-v39 h2{font-size:clamp(24px,3vw,34px);margin:0 0 10px}.fact-block-v39 p{font-size:18px;line-height:1.75;margin:0}.explorer-prompt-v39{margin:44px 0;padding:34px;border-radius:30px;background:linear-gradient(135deg,#e9f8ef,#fff4bc);text-align:center}.explorer-prompt-v39 .button-row{justify-content:center}.related-discoveries-v39{padding-top:20px}.related-discoveries-v39>div{display:flex;flex-wrap:wrap;gap:12px}.related-discoveries-v39 a{padding:12px 18px;border-radius:999px;background:#fff2aa;font-weight:900;color:#5e4a0a;text-decoration:none}.knowledge-crosslink-v39{text-align:center;background:#f0f9f4}.knowledge-crosslink-v39 .btn{margin-top:15px}
-@media(max-width:760px){.knowledge-grid-v39,.knowledge-principle-grid-v39,.knowledge-mini-grid-v39{grid-template-columns:1fr}.knowledge-hero-v39{padding-top:110px}.article-shell-v39{padding:110px 15px 60px}.fact-block-v39{padding:22px}.article-content-v39 p{font-size:17px}}
-
-
-/* v40 — Core Web Vitals and motion-safe rendering */
-@supports (content-visibility: auto) {
-  main > section:not(.hero),
-  .site-footer {
-    content-visibility: auto;
-    contain-intrinsic-size: 900px;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  html { scroll-behavior: auto; }
-  *, *::before, *::after {
-    animation-duration: .01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: .01ms !important;
-    scroll-behavior: auto !important;
-  }
 }
