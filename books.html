@@ -6,11 +6,11 @@
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Morfu and the Little Octopus — Interactive Children’s Book Ages 3–5 | Morfu.club</title>
 <meta name="description" content="Morfu and the Little Octopus is a warm interactive ocean adventure for children ages 3–5. Help Morfu find clues, collect a Golden Feather and bring a little octopus safely home."/>
-<link rel="canonical" href="https://morfu.club/books.html"/>
+<link rel="canonical" href="https://morfu.club/books"/>
 <meta property="og:title" content="Morfu and the Little Octopus — Interactive Children’s Book Ages 3–5"/>
 <meta property="og:description" content="Morfu and the Little Octopus is a warm interactive ocean adventure for children ages 3–5. Help Morfu find clues, collect a Golden Feather and bring a little octopus safely home."/>
 <meta property="og:type" content="book"/>
-<meta property="og:url" content="https://morfu.club/books.html"/>
+<meta property="og:url" content="https://morfu.club/books"/>
 <meta property="og:image" content="https://morfu.club/assets/books/morfu_little_octopus_cover.png"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <link href="assets/brand/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
@@ -29,51 +29,132 @@
 <link rel="preconnect" href="https://www.amazon.com"/>
 <script type="application/ld+json">{
   "@context": "https://schema.org",
-  "@type": "Book",
-  "name": "Morfu and the Little Octopus",
-  "author": {
-    "@type": "Organization",
-    "name": "Morfu Studio"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Morfu Studio"
-  },
-  "bookFormat": [
-    "https://schema.org/Paperback",
-    "https://schema.org/EBook"
-  ],
-  "inLanguage": "en",
-  "audience": {
-    "@type": "PeopleAudience",
-    "suggestedMinAge": 3,
-    "suggestedMaxAge": 5
-  },
-  "description": "A warm interactive ocean adventure where young readers help Morfu choose, search and solve to bring a lost Little Octopus safely home.",
-  "image": "https://morfu.club/assets/books/morfu_little_octopus_cover.png",
-  "url": "https://morfu.club/books.html",
-  "sameAs": "/amazon",
-  "isPartOf": {
-    "@type": "BookSeries",
-    "name": "Morfu’s Adventures"
-  }
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://morfu.club/#organization",
+      "name": "Morfu.club",
+      "url": "https://morfu.club/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://morfu.club/assets/brand/logo.png"
+      }
+    },
+    {
+      "@type": "BookSeries",
+      "@id": "https://morfu.club/books#series",
+      "name": "Morfu’s Adventures",
+      "url": "https://morfu.club/books",
+      "publisher": {
+        "@id": "https://morfu.club/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://morfu.club/books#webpage",
+      "url": "https://morfu.club/books",
+      "name": "Morfu and the Little Octopus — Interactive Children’s Book Ages 3–5",
+      "description": "A warm interactive ocean adventure where young readers help Morfu choose, search and solve to bring a lost Little Octopus safely home.",
+      "isPartOf": {
+        "@id": "https://morfu.club/#website"
+      },
+      "about": {
+        "@id": "https://morfu.club/books#book"
+      },
+      "breadcrumb": {
+        "@id": "https://morfu.club/books#breadcrumb"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://morfu.club/books#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://morfu.club/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Books",
+          "item": "https://morfu.club/books"
+        }
+      ]
+    },
+    {
+      "@type": "Book",
+      "@id": "https://morfu.club/books#book",
+      "name": "Morfu and the Little Octopus",
+      "alternateName": "Morfu & the Little Octopus",
+      "url": "https://morfu.club/books",
+      "mainEntityOfPage": {
+        "@id": "https://morfu.club/books#webpage"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://morfu.club/assets/books/morfu_little_octopus_cover.png",
+        "caption": "Morfu and the Little Octopus book cover"
+      },
+      "description": "A warm interactive ocean adventure for children ages 3–5. Young readers help Morfu make choices, find hidden clues, collect a Golden Feather and bring a lost Little Octopus safely home.",
+      "inLanguage": "en",
+      "genre": [
+        "Children’s picture book",
+        "Interactive adventure",
+        "Animal story"
+      ],
+      "keywords": "interactive picture book, ocean adventure for kids, octopus book for children, search and find book, children ages 3–5, kindness story",
+      "audience": {
+        "@type": "PeopleAudience",
+        "suggestedMinAge": 3,
+        "suggestedMaxAge": 5,
+        "audienceType": "Children and families"
+      },
+      "typicalAgeRange": "3-5",
+      "isFamilyFriendly": true,
+      "educationalUse": [
+        "Shared reading",
+        "Observation",
+        "Conversation",
+        "Problem solving"
+      ],
+      "learningResourceType": "Interactive picture book",
+      "bookFormat": [
+        "https://schema.org/Paperback",
+        "https://schema.org/EBook"
+      ],
+      "isPartOf": {
+        "@id": "https://morfu.club/books#series"
+      },
+      "publisher": {
+        "@id": "https://morfu.club/#organization"
+      },
+      "sameAs": "https://www.amazon.com/dp/B0H2HDT1T7",
+      "potentialAction": {
+        "@type": "BuyAction",
+        "target": "https://www.amazon.com/dp/B0H2HDT1T7"
+      }
+    }
+  ]
 }</script></head>
 <body>
 <a class="skip-link" href="#top">Skip to content</a>
 <header aria-label="Main navigation" class="site-header">
-<a aria-label="Morfu Club home" class="logo" href="index.html">
+<a aria-label="Morfu Club home" class="logo" href="/">
 <img alt="Morfu.club" decoding="async" fetchpriority="high" height="356" loading="eager" src="assets/brand/logo.png" width="760"/>
 </a>
 <button aria-expanded="false" aria-label="Open menu" class="menu-toggle">☰</button>
 <nav class="main-nav">
-<a class="" href="index.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_face.png" width="512"/>Home</a>
-<a class="" href="explore.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_compass.png" width="512"/>Explore</a>
-<a class="active" href="books.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_book.png" width="512"/>Books</a>
-<a class="" href="activities.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_palette.png" width="512"/>Backpack</a>
-<a class="" href="meet-morfu.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_meet.png" width="512"/>Meet Morfu</a>
-<a class="" href="parents.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_star.png" width="512"/>Parents</a>
+<a class="" href="/"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_face.png" width="512"/>Home</a>
+<a class="" href="/explore"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_compass.png" width="512"/>Explore</a>
+<a class="active" href="/books"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_book.png" width="512"/>Books</a>
+<a class="" href="/activities"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_palette.png" width="512"/>Backpack</a>
+<a class="" href="/meet-morfu"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_meet.png" width="512"/>Meet Morfu</a>
+<a class="" href="/parents"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_star.png" width="512"/>Parents</a>
 </nav>
-<a class="header-cta" href="explorer-club.html">Join Explorer Club</a>
+<a class="header-cta" href="/explorer-club">Join Explorer Club</a>
 </header>
 <main>
 <section class="book-hero-v17">
@@ -144,7 +225,7 @@
 <img alt="" decoding="async" height="512" loading="lazy" src="assets/icons/icon_book.png" width="512"/>
 <h3>Before or after reading</h3>
 <p>Use the free Morfu Explorer Starter Pack to continue the adventure with coloring, search-and-find and badge activities.</p>
-<a class="small-link" href="activities.html">Go to Activities</a>
+<a class="small-link" href="/activities">Go to Activities</a>
 </div>
 </div>
 </section>
@@ -215,22 +296,22 @@
 <p>I can’t wait to see you again on our next adventure. Until then, keep looking closely, asking questions and collecting little moments of wonder.</p>
 <p class="footer-signature-v32">💛 Your friend, <strong>Morfu</strong></p>
 <div class="button-row footer-actions-v32">
-<a class="btn btn-primary" href="books.html">Start the First Book</a>
-<a class="btn btn-secondary" href="activities.html">Open the Backpack</a>
+<a class="btn btn-primary" href="/books">Start the First Book</a>
+<a class="btn btn-secondary" href="/activities">Open the Backpack</a>
 </div>
 </div>
 </div>
 <div class="footer-links-v32">
 <img alt="Morfu.club" decoding="async" height="356" loading="lazy" src="assets/brand/logo.png" width="760"/>
 <nav aria-label="Footer navigation">
-<a href="explore.html">Explore</a>
-<a href="books.html">Books</a>
-<a href="activities.html">Backpack</a>
-<a href="meet-morfu.html">Meet Morfu</a>
-<a href="parents.html">Parents</a>
-<a href="explorer-club.html">Explorer Club</a>
-<a href="contact.html">Contact</a>
-<a href="privacy.html">Privacy</a>
+<a href="/explore">Explore</a>
+<a href="/books">Books</a>
+<a href="/activities">Backpack</a>
+<a href="/meet-morfu">Meet Morfu</a>
+<a href="/parents">Parents</a>
+<a href="/explorer-club">Explorer Club</a>
+<a href="/contact">Contact</a>
+<a href="/privacy">Privacy</a>
 </nav>
 <p>© 2026 Morfu.club · Magical adventures, books and Backpack missions for little explorers.</p>
 </div>

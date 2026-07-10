@@ -50,25 +50,48 @@
         "@id": "https://morfu.club/#organization"
       },
       "inLanguage": "en"
+    },
+    {
+      "@type": "BookSeries",
+      "@id": "https://morfu.club/books#series",
+      "name": "Morfu’s Adventures",
+      "url": "https://morfu.club/books",
+      "publisher": {
+        "@id": "https://morfu.club/#organization"
+      },
+      "hasPart": {
+        "@id": "https://morfu.club/books#book"
+      }
+    },
+    {
+      "@type": "Book",
+      "@id": "https://morfu.club/books#book",
+      "name": "Morfu and the Little Octopus",
+      "url": "https://morfu.club/books",
+      "image": "https://morfu.club/assets/books/morfu_little_octopus_cover.png",
+      "isPartOf": {
+        "@id": "https://morfu.club/books#series"
+      },
+      "sameAs": "https://www.amazon.com/dp/B0H2HDT1T7"
     }
   ]
 }</script></head>
 <body>
 <a class="skip-link" href="#top">Skip to content</a>
 <header aria-label="Main navigation" class="site-header">
-<a aria-label="Morfu Club home" class="logo" href="index.html">
+<a aria-label="Morfu Club home" class="logo" href="/">
 <img alt="Morfu.club" decoding="async" fetchpriority="high" height="356" loading="eager" src="assets/brand/logo.png" width="760"/>
 </a>
 <button aria-expanded="false" aria-label="Open menu" class="menu-toggle">☰</button>
 <nav class="main-nav">
-<a class="active" href="index.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_face.png" width="512"/>Home</a>
-<a href="explore.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_compass.png" width="512"/>Explore</a>
-<a href="books.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_book.png" width="512"/>Books</a>
-<a href="activities.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_palette.png" width="512"/>Backpack</a>
-<a href="meet-morfu.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_meet.png" width="512"/>Meet Morfu</a>
-<a href="parents.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_star.png" width="512"/>Parents</a>
+<a class="active" href="/"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_face.png" width="512"/>Home</a>
+<a href="/explore"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_compass.png" width="512"/>Explore</a>
+<a href="/books"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_book.png" width="512"/>Books</a>
+<a href="/activities"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_palette.png" width="512"/>Backpack</a>
+<a href="/meet-morfu"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_morfu_meet.png" width="512"/>Meet Morfu</a>
+<a href="/parents"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_star.png" width="512"/>Parents</a>
 </nav>
-<a class="header-cta" href="explorer-club.html">Join Explorer Club</a>
+<a class="header-cta" href="/explorer-club">Join Explorer Club</a>
 </header>
 <main id="top">
 <section aria-labelledby="hero-title" class="hero">
@@ -77,9 +100,9 @@
 <h1 id="hero-title">I'm Morfu.<br/><span>I've been waiting for you!</span></h1>
 <p class="hero-text">Together we'll explore magical places, meet amazing animal friends, solve playful challenges and collect Golden Feathers along the way. Every adventure helps little explorers grow with kindness, curiosity and courage.</p>
 <div class="hero-actions hero-actions-v19">
-<a class="btn btn-primary" href="explore.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_compass.png" width="512"/>Start Exploring</a>
-<a class="btn btn-secondary" href="activities.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_backpack.png" width="512"/>Open the Backpack</a>
-<a class="btn btn-soft" href="explorer-club.html"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_star.png" width="512"/>Join Explorer Club</a>
+<a class="btn btn-primary" href="/explore"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_compass.png" width="512"/>Start Exploring</a>
+<a class="btn btn-secondary" href="/activities"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_backpack.png" width="512"/>Open the Backpack</a>
+<a class="btn btn-soft" href="/explorer-club"><img alt="" decoding="async" height="512" loading="eager" src="assets/icons/icon_star.png" width="512"/>Join Explorer Club</a>
 </div>
 <p class="hero-amazon-note">First story available now: <a href="/amazon" rel="noopener noreferrer" target="_blank">Morfu and the Little Octopus on Amazon</a>.</p>
 </div>
@@ -91,7 +114,7 @@
 <p>Choose where today's adventure begins. Every path leads to a new discovery!</p>
 </div>
 <div class="banner-grid adventure-choice-grid">
-<a aria-label="Explore amazing Morfu worlds" class="banner-card adventure-choice-card" href="explore.html">
+<a aria-label="Explore amazing Morfu worlds" class="banner-card adventure-choice-card" href="/explore">
 <img alt="Explore Amazing Worlds" decoding="async" height="330" loading="lazy" src="assets/banners/banner_explore_amazing_worlds.png" width="739"/>
 <div class="choice-copy">
 <span class="choice-kicker">Worlds</span>
@@ -100,7 +123,7 @@
 <strong>Let's Go!</strong>
 </div>
 </a>
-<a aria-label="Dive into Morfu's ocean adventure" class="banner-card adventure-choice-card" href="books.html">
+<a aria-label="Dive into Morfu's ocean adventure" class="banner-card adventure-choice-card" href="/books">
 <img alt="Dive into Adventure" decoding="async" height="330" loading="lazy" src="assets/banners/banner_dive_into_adventure.png" width="739"/>
 <div class="choice-copy">
 <span class="choice-kicker">Ocean</span>
@@ -109,7 +132,7 @@
 <strong>Let's Go!</strong>
 </div>
 </a>
-<a aria-label="Meet amazing animals with Morfu" class="banner-card adventure-choice-card" href="explore.html">
+<a aria-label="Meet amazing animals with Morfu" class="banner-card adventure-choice-card" href="/explore">
 <img alt="Meet Amazing Animals" decoding="async" height="288" loading="lazy" src="assets/banners/banner_meet_amazing_animals.png" width="737"/>
 <div class="choice-copy">
 <span class="choice-kicker">Animals</span>
@@ -118,7 +141,7 @@
 <strong>Let's Go!</strong>
 </div>
 </a>
-<a aria-label="Unlock magical animal powers with Morfu" class="banner-card adventure-choice-card" href="meet-morfu.html">
+<a aria-label="Unlock magical animal powers with Morfu" class="banner-card adventure-choice-card" href="/meet-morfu">
 <img alt="Unlock Magical Powers" decoding="async" height="288" loading="lazy" src="assets/banners/banner_unlock_magical_powers.png" width="739"/>
 <div class="choice-copy">
 <span class="choice-kicker">Golden Feathers</span>
@@ -152,14 +175,14 @@
 <span>Morfu’s<br/>Base Camp</span>
 <small>tap a land</small>
 </div>
-<a aria-label="Start the Amazon Rainforest adventure" class="map-land-v29 map-land-v30 land-amazon-v29 active-land-v29" data-world="amazon" href="books.html">
+<a aria-label="Start the Amazon Rainforest adventure" class="map-land-v29 map-land-v30 land-amazon-v29 active-land-v29" data-world="amazon" href="/books">
 <span aria-hidden="true" class="land-glow-v30"></span>
 <span class="land-icon-v29">🌴</span>
 <strong>Amazon Rainforest</strong>
 <em>Available now</em>
 <b>Start Adventure</b>
 </a>
-<a aria-label="Start the Coral Ocean adventure" class="map-land-v29 map-land-v30 land-ocean-v29 active-land-v29" data-world="ocean" href="books.html">
+<a aria-label="Start the Coral Ocean adventure" class="map-land-v29 map-land-v30 land-ocean-v29 active-land-v29" data-world="ocean" href="/books">
 <span aria-hidden="true" class="land-glow-v30"></span>
 <span class="land-icon-v29">🌊</span>
 <strong>Coral Ocean</strong>
@@ -227,8 +250,8 @@
 <span><strong>🚀 Space Expedition</strong><em>Coming soon</em></span>
 </div>
 <div class="button-row">
-<a class="btn btn-primary" href="books.html">Start the First Book</a>
-<a class="btn btn-secondary" href="explore.html">Explore All Worlds</a>
+<a class="btn btn-primary" href="/books">Start the First Book</a>
+<a class="btn btn-secondary" href="/explore">Explore All Worlds</a>
 </div>
 </aside>
 </div>
@@ -247,8 +270,8 @@
 <p>Sometimes he feels a little scared. Sometimes he makes mistakes. But he never gives up — especially when a child helps him choose the next step.</p>
 <div class="morfu-quote-v24">“Every adventure is easier when we explore together.”</div>
 <div class="button-row">
-<a class="btn btn-primary" href="meet-morfu.html">Meet Morfu</a>
-<a class="btn btn-secondary" href="books.html">Start with the book</a>
+<a class="btn btn-primary" href="/meet-morfu">Meet Morfu</a>
+<a class="btn btn-secondary" href="/books">Start with the book</a>
 </div>
 </div>
 <div aria-label="Morfu traits" class="trait-grid trait-grid-v24">
@@ -285,7 +308,7 @@
 </div>
 <div class="button-row">
 <a class="btn btn-primary" href="/amazon" rel="noopener noreferrer" target="_blank">View on Amazon</a>
-<a class="btn btn-secondary" href="books.html">Preview the Adventure</a>
+<a class="btn btn-secondary" href="/books">Preview the Adventure</a>
 </div>
 </div>
 </div>
@@ -313,7 +336,7 @@
 </div>
 <div class="button-row">
 <a class="btn btn-primary" href="assets/downloads/morfu-explorer-starter-pack.pdf" rel="noopener noreferrer" target="_blank">Download Free Backpack</a>
-<a class="btn btn-secondary" href="activities.html">See Backpack Missions</a>
+<a class="btn btn-secondary" href="/activities">See Backpack Missions</a>
 </div>
 </div>
 </div>
@@ -343,7 +366,7 @@
 </div>
 <div class="button-row story-preview-actions-v25">
 <a class="btn btn-primary" href="/amazon" rel="noopener noreferrer" target="_blank">Continue on Amazon</a>
-<a class="btn btn-secondary" href="books.html">See full book page</a>
+<a class="btn btn-secondary" href="/books">See full book page</a>
 </div>
 </section>
 <section aria-labelledby="activities-title" class="section section-cream backpack-missions-v26" id="activities">
@@ -410,7 +433,7 @@
 <p>Stories become conversations. Questions become discoveries. Small adventures become lifelong memories.</p>
 <div class="parents-actions-v27">
 <a class="btn btn-primary" href="/amazon" rel="noopener noreferrer" target="_blank">Start with the First Book</a>
-<a class="btn btn-secondary" href="activities.html">Open the Explorer Backpack</a>
+<a class="btn btn-secondary" href="/activities">Open the Explorer Backpack</a>
 </div>
 </div>
 <div aria-label="A warm family reading moment with Morfu" class="parents-scene-v27">
@@ -462,7 +485,7 @@
 </div>
 <div class="button-row">
 <a class="btn btn-primary" href="/amazon" rel="noopener noreferrer" target="_blank">View on Amazon</a>
-<a class="btn btn-secondary" href="books.html">Preview the Book</a>
+<a class="btn btn-secondary" href="/books">Preview the Book</a>
 </div>
 </div>
 </section>
@@ -495,8 +518,8 @@
 <span>🌍 Return</span>
 </div>
 <div class="club-actions-v28">
-<a class="btn btn-primary" href="explorer-club.html">Join Explorer Club</a>
-<a class="btn btn-secondary" href="activities.html">Open the Backpack</a>
+<a class="btn btn-primary" href="/explorer-club">Join Explorer Club</a>
+<a class="btn btn-secondary" href="/activities">Open the Backpack</a>
 </div>
 </div>
 <div class="club-card-v28">
@@ -539,22 +562,22 @@
 <p>I can’t wait to see you again on our next adventure. Until then, keep looking closely, asking questions and collecting little moments of wonder.</p>
 <p class="footer-signature-v32">💛 Your friend, <strong>Morfu</strong></p>
 <div class="button-row footer-actions-v32">
-<a class="btn btn-primary" href="books.html">Start the First Book</a>
-<a class="btn btn-secondary" href="activities.html">Open the Backpack</a>
+<a class="btn btn-primary" href="/books">Start the First Book</a>
+<a class="btn btn-secondary" href="/activities">Open the Backpack</a>
 </div>
 </div>
 </div>
 <div class="footer-links-v32">
 <img alt="Morfu.club" decoding="async" height="356" loading="lazy" src="assets/brand/logo.png" width="760"/>
 <nav aria-label="Footer navigation">
-<a href="explore.html">Explore</a>
-<a href="books.html">Books</a>
-<a href="activities.html">Backpack</a>
-<a href="meet-morfu.html">Meet Morfu</a>
-<a href="parents.html">Parents</a>
-<a href="explorer-club.html">Explorer Club</a>
-<a href="contact.html">Contact</a>
-<a href="privacy.html">Privacy</a>
+<a href="/explore">Explore</a>
+<a href="/books">Books</a>
+<a href="/activities">Backpack</a>
+<a href="/meet-morfu">Meet Morfu</a>
+<a href="/parents">Parents</a>
+<a href="/explorer-club">Explorer Club</a>
+<a href="/contact">Contact</a>
+<a href="/privacy">Privacy</a>
 </nav>
 <p>© 2026 Morfu.club · Magical adventures, books and Backpack missions for little explorers.</p>
 </div>
