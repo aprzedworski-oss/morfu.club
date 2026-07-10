@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://morfu.club/sitemap.xml
+Sitemap: https://morfu.club/image-sitemap.xml

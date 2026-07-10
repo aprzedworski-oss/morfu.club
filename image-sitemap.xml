@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://morfu.club/</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/hero/hero-desktop.png</image:loc>
+      <image:title>Morfu welcomes children to a magical world of interactive adventures</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/books</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/books/morfu_little_octopus_cover.png</image:loc>
+      <image:title>Morfu and the Little Octopus interactive picture book cover</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/explore</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/banners/banner_dive_into_adventure.png</image:loc>
+      <image:title>Morfu ocean adventure with the Little Octopus</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://morfu.club/assets/banners/banner_explore_amazing_worlds.png</image:loc>
+      <image:title>Morfu explores amazing worlds and the rainforest</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://morfu.club/assets/banners/banner_meet_amazing_animals.png</image:loc>
+      <image:title>Morfu meets amazing animals</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://morfu.club/assets/banners/banner_unlock_magical_powers.png</image:loc>
+      <image:title>Morfu unlocks gentle animal powers</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/activities</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/downloads/starter-pack-cover.jpg</image:loc>
+      <image:title>Morfu Explorer Starter Pack printable activities cover</image:title>
+    </image:image>
+  </url>
+</urlset>

@@ -76,7 +76,7 @@ a { color: inherit; text-decoration: none; }
   padding: 96px clamp(22px, 6vw, 94px);
   background-image:
     linear-gradient(90deg, rgba(255, 250, 238, .98) 0%, rgba(255, 250, 238, .88) 29%, rgba(255, 250, 238, .20) 55%, rgba(255, 250, 238, .02) 74%),
-    url('assets/hero/hero-alt.png');
+    url("assets/hero/hero-alt.webp");
   background-size: cover;
   background-position: center right;
   border-bottom-left-radius: 50% 7%;
@@ -198,7 +198,7 @@ h2 { font-size: clamp(34px, 5vw, 64px); }
     padding: min(112vw, 535px) 18px 42px;
     background-image:
       linear-gradient(180deg, rgba(255,250,238,.00) 0%, rgba(255,250,238,.04) 45%, rgba(255,250,238,.94) 72%, rgba(255,250,238,1) 100%),
-      url('assets/hero/hero-desktop.png');
+      url("assets/hero/hero-desktop.webp");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center top;
@@ -282,7 +282,7 @@ h2 { font-size: clamp(34px, 5vw, 64px); }
   padding: 90px clamp(22px, 6vw, 94px);
   background-image:
     linear-gradient(90deg, rgba(255,250,238,.98) 0%, rgba(255,250,238,.88) 34%, rgba(255,250,238,.18) 64%, rgba(255,250,238,.02) 100%),
-    url('assets/hero/hero-alt.png');
+    url("assets/hero/hero-alt.webp");
   background-size: cover;
   background-position: center right;
   border-bottom-left-radius: 45% 6%;
@@ -329,7 +329,7 @@ h2 { font-size: clamp(34px, 5vw, 64px); }
     padding: min(80vw, 420px) 18px 42px;
     background-image:
       linear-gradient(180deg, rgba(255,250,238,.00) 0%, rgba(255,250,238,.08) 48%, rgba(255,250,238,.96) 76%, rgba(255,250,238,1) 100%),
-      url('assets/hero/hero-desktop.png');
+      url("assets/hero/hero-desktop.webp");
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: center top;
