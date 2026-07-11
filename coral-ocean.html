@@ -25,7 +25,7 @@
 }
 </script>
 </head>
-<body class="coral-ocean-page-v48">
+<body class="coral-ocean-page-v48 world-engine-v49" data-world-engine data-world-id="coral-ocean" data-mission-total="5">
 <header class="site-header">
   <a class="brand-link" href="/" aria-label="Morfu Club home">Morfu.club</a>
   <nav aria-label="Primary navigation">
@@ -72,8 +72,8 @@
     <article class="progress-card-v48">
       <span class="progress-icon-v48">🌊</span>
       <strong>World Progress</strong>
-      <div class="progress-bar-v48"><span id="world-progress-fill-v48"></span></div>
-      <b id="world-progress-text-v48">20%</b>
+      <div class="progress-bar-v48"><span id="world-progress-fill-v48" data-world-progress-fill></span></div>
+      <b id="world-progress-text-v48" data-world-progress-text>20%</b>
     </article>
     <article class="progress-card-v48">
       <img src="/assets/icons/morfu/badge-dolphin.svg" alt="" aria-hidden="true" width="96" height="96"/>
@@ -83,7 +83,7 @@
     <article class="progress-card-v48">
       <img src="/assets/icons/morfu/feather.svg" alt="" aria-hidden="true" width="96" height="96"/>
       <strong>Golden Feathers</strong>
-      <b id="feather-count-v48">1 / 5</b>
+      <b id="feather-count-v48" data-feather-count>1 / 5</b>
     </article>
     <article class="progress-card-v48">
       <span class="progress-icon-v48">🧭</span>
@@ -115,12 +115,12 @@
     <p>Mission 001 is open now. More missions will unlock in future updates.</p>
   </div>
   <div class="mission-hub-grid-v48">
-    <article class="mission-hub-card-v48 mission-open-v48">
+    <article class="mission-hub-card-v48 mission-open-v48" data-mission-number="1">
       <div class="mission-number-v48">001</div>
       <img src="/assets/icons/morfu/feather.svg" alt="" aria-hidden="true" width="128" height="128"/>
       <h3>Find the Golden Feather</h3>
       <p>Search the coral reef and help Morfu unlock Dolphin Power.</p>
-      <span class="status-pill available">Open now</span>
+      <span class="status-pill available" data-mission-status>Open now</span>
       <a class="btn btn-primary" href="/mission-001">Play Mission 001</a>
     </article>
 
@@ -266,17 +266,6 @@
   </nav>
 </footer>
 
-<script>
-(function(){
-  var completed = localStorage.getItem('morfuMission001Complete') === 'true';
-  var progress = completed ? 20 : 0;
-  var fill = document.getElementById('world-progress-fill-v48');
-  var text = document.getElementById('world-progress-text-v48');
-  var feather = document.getElementById('feather-count-v48');
-  if(fill) fill.style.width = progress + '%';
-  if(text) text.textContent = progress + '%';
-  if(feather) feather.textContent = completed ? '1 / 5' : '0 / 5';
-})();
-</script>
+<script src="/world-engine.js" defer></script>
 </body>
 </html>

@@ -3012,3 +3012,101 @@ img { height: auto; }
   .mission-hub-card-v48 { min-height: 0; }
   .next-world-emoji-v48 { text-align: center; }
 }
+
+
+/* v49 — Shared World Engine */
+.world-engine-v49 {
+  --world-accent: #22a9c3;
+  --world-deep: #164d61;
+  --world-soft: #eaf9fc;
+  --world-warm: #f5bd44;
+  background: var(--world-soft);
+}
+.world-engine-v49 .world-theme-card-v49 {
+  border-color: color-mix(in srgb, var(--world-accent) 25%, transparent);
+}
+.world-engine-v49 .progress-bar-v48 span {
+  background: linear-gradient(90deg, var(--world-accent), var(--world-warm));
+}
+.world-engine-v49 .world-nav-v48 a:hover {
+  background: color-mix(in srgb, var(--world-accent) 14%, white);
+}
+.world-engine-v49 .mission-complete-v49 {
+  outline: 3px solid color-mix(in srgb, var(--world-accent) 45%, white);
+  opacity: 1;
+}
+.world-engine-v49 .mission-complete-v49::after {
+  content: "✓";
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #2f9c5b;
+  color: white;
+  font-weight: 900;
+}
+.rainforest-world-v49 {
+  --world-accent: #3e9a51;
+  --world-deep: #204f2f;
+  --world-soft: #f0f8e8;
+  --world-warm: #e8a52f;
+}
+.rainforest-hero-v49 {
+  position: relative;
+  min-height: 70vh;
+  display: grid;
+  place-items: end start;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(20,63,35,.88), rgba(20,63,35,.30)),
+    url('/assets/banners/banner_explore_amazing_worlds.webp') center/cover no-repeat;
+}
+.rainforest-hero-v49 .coral-hero-content-v48 {
+  color: white;
+}
+.rainforest-world-v49 .hub-action-card-v48,
+.rainforest-world-v49 .progress-card-v48,
+.rainforest-world-v49 .character-card-v48,
+.rainforest-world-v49 .mission-hub-card-v48 {
+  border-color: rgba(62,154,81,.18);
+}
+.world-status-grid-v49 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 1rem;
+}
+.world-status-card-v49 {
+  padding: 1.2rem;
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0 14px 36px rgba(43,89,108,.09);
+}
+.world-status-card-v49 strong,
+.world-status-card-v49 span {
+  display: block;
+}
+.world-status-card-v49 span {
+  margin-top: .25rem;
+  opacity: .75;
+}
+.qr-ready-note-v49 {
+  margin-top: 1rem;
+  padding: .8rem 1rem;
+  border-radius: 16px;
+  background: rgba(255,255,255,.82);
+  border: 1px solid rgba(255,255,255,.5);
+  font-weight: 800;
+}
+@media (max-width: 760px) {
+  .rainforest-hero-v49 {
+    min-height: 76vh;
+    background-position: 58% center;
+  }
+  .world-status-grid-v49 {
+    grid-template-columns: 1fr;
+  }
+}
