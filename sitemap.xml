@@ -65,4 +65,11 @@
   <url><loc>https://morfu.club/coral-reef-facts-for-kids</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://morfu.club/dolphin-facts-for-kids</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://morfu.club/ocean-activities-for-preschoolers</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <url>
+    <loc>https://morfu.club/mission-001</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url><loc>https://morfu.club/coral-ocean</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
 </urlset>

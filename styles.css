@@ -2578,3 +2578,437 @@ img { height: auto; }
 .animal-power-status-v43{display:flex;flex-wrap:wrap;gap:.55rem;align-items:center;margin:1rem 0 1.2rem;padding:.65rem .9rem;border-radius:999px;background:rgba(255,255,255,.86);box-shadow:0 8px 24px rgba(47,73,77,.12);width:max-content;max-width:100%;font-size:.9rem}.animal-power-status-v43 span{font-weight:800}.animal-power-status-v43 strong{color:#147c73}.animal-power-status-v43 em{font-style:normal;color:#6849a8}.current-power-v43,.book-power-card-v43{display:flex;gap:1rem;align-items:center;margin:1.25rem 0;padding:1rem 1.15rem;border-radius:22px;background:linear-gradient(135deg,#f3edff,#e5fbff);border:1px solid rgba(83,72,151,.14);box-shadow:0 12px 28px rgba(59,56,112,.12)}.current-power-v43 h3,.book-power-card-v43 h2{margin:.12rem 0 .35rem}.current-power-v43 small{font-weight:800;text-transform:uppercase;letter-spacing:.08em;color:#6d55a9}.power-orb-v43{display:grid;place-items:center;flex:0 0 70px;width:70px;height:70px;border-radius:50%;font-size:2.2rem;background:radial-gradient(circle at 35% 30%,#fff,#bcecf1 58%,#8d78d1);box-shadow:inset 0 0 0 5px rgba(255,255,255,.65),0 8px 22px rgba(71,67,139,.22)}.animal-power-explainer-v43,.power-training-v43,.parent-power-v43,.club-powers-v43,.map-power-legend-v43,.book-power-v43{position:relative}.power-steps-v43,.parent-power-points-v43{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin:1.5rem 0}.parent-power-points-v43{grid-template-columns:repeat(3,minmax(0,1fr))}.power-steps-v43 article,.parent-power-points-v43 article{padding:1.05rem;border-radius:20px;background:#fff;box-shadow:0 10px 24px rgba(35,61,65,.09)}.power-steps-v43 b{display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:#f7c84b;color:#3d3313}.power-collection-v43{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.9rem;margin-top:1.25rem}.power-collection-v43 span{display:flex;flex-direction:column;gap:.2rem;align-items:center;text-align:center;padding:1rem;border-radius:18px;background:#f5f1e8;filter:saturate(.7);opacity:.78}.power-collection-v43 .unlocked-v43{background:linear-gradient(135deg,#e4fbf7,#eee8ff);filter:none;opacity:1;box-shadow:0 10px 24px rgba(41,113,109,.13)}.power-collection-v43 em{font-size:.78rem;font-style:normal;color:#6f6b65}.footer-power-v43{text-align:center;margin:.65rem auto 0;font-weight:700;color:#6d55a9}.book-power-card-v43{max-width:900px;margin-inline:auto}.book-power-card-v43 ul{margin:.7rem 0 0;padding-left:1.2rem}.map-status-v29.available-v29{max-width:16rem;text-align:center}
 @media(max-width:820px){.power-steps-v43,.parent-power-points-v43,.power-collection-v43{grid-template-columns:1fr 1fr}.current-power-v43,.book-power-card-v43{align-items:flex-start}.animal-power-status-v43{width:auto}}
 @media(max-width:520px){.power-steps-v43,.parent-power-points-v43,.power-collection-v43{grid-template-columns:1fr}.current-power-v43,.book-power-card-v43{flex-direction:column}.power-orb-v43{width:60px;height:60px;flex-basis:60px}}
+
+
+/* v44 — Morfu Design System */
+:root{--morfu-gold:#ffd84d;--morfu-gold-deep:#b87a10;--morfu-teal:#5dc5c9;--morfu-teal-deep:#2b7074;--morfu-brown:#6d3e24;--morfu-cream:#fff8da;--morfu-card-radius:28px;--morfu-card-shadow:0 18px 45px rgba(49,72,65,.12);}
+.morfu-icon-v44{object-fit:contain;filter:drop-shadow(0 5px 7px rgba(65,55,27,.12));}
+.main-nav .morfu-icon-v44{width:46px;height:46px;transition:transform .22s ease,filter .22s ease}.main-nav a:hover .morfu-icon-v44,.main-nav a:focus-visible .morfu-icon-v44{transform:translateY(-3px) rotate(-3deg) scale(1.06);filter:drop-shadow(0 8px 10px rgba(65,55,27,.18))}.btn .morfu-icon-v44{width:27px;height:27px}.btn:hover .morfu-icon-v44{transform:rotate(-7deg) scale(1.08)}
+.page-badge-v44{display:inline-flex;align-items:center;gap:.65rem;margin:0 auto 1rem;padding:.55rem 1rem .55rem .65rem;border-radius:999px;background:rgba(255,255,255,.9);border:1px solid rgba(89,70,24,.12);box-shadow:0 10px 25px rgba(63,75,58,.1);font-size:.78rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:#5d4a15}.page-badge-v44 img{width:34px;height:34px;object-fit:contain}.article-shell-v39 .page-badge-v44,.knowledge-hero-v39 .page-badge-v44{margin-inline:auto}
+:is(.activity-card,.mission-card-v26,.knowledge-card-v39 a,.parents-pillars-v27 article,.trait-card,.inside-adventure-grid-v25 article,.book-flow-steps-v25 article,.step-v20,.map-land-v30,.power-steps-v43 article,.parent-power-points-v43 article){border-radius:var(--morfu-card-radius)!important;border:1px solid rgba(65,86,75,.1)!important;box-shadow:var(--morfu-card-shadow)!important;transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease!important}
+:is(.activity-card,.mission-card-v26,.knowledge-card-v39 a,.parents-pillars-v27 article,.trait-card,.inside-adventure-grid-v25 article,.book-flow-steps-v25 article,.step-v20,.map-land-v30,.power-steps-v43 article,.parent-power-points-v43 article):hover{transform:translateY(-6px);box-shadow:0 25px 60px rgba(49,72,65,.17)!important;border-color:rgba(93,197,201,.35)!important}
+.hidden-feather-v31{font-size:0!important;background:url('assets/icons/morfu/feather.svg') center/contain no-repeat!important;width:48px!important;height:48px!important;filter:drop-shadow(0 6px 8px rgba(164,112,12,.28));animation:morfuFeatherFloat 4.5s ease-in-out infinite}.hidden-feather-v31::after{content:''}.hidden-feather-v31:hover{transform:scale(1.13) rotate(-6deg)!important}
+@keyframes morfuFeatherFloat{0%,100%{translate:0 0;rotate:-2deg}50%{translate:0 -8px;rotate:4deg}}
+.power-orb-v43{font-size:0;background:radial-gradient(circle at 35% 30%,#fff,#bcecf1 58%,#8d78d1)}.power-orb-v43::before{content:'';width:72%;height:72%;background:url('assets/icons/morfu/badge-dolphin.svg') center/contain no-repeat}.backpack-visual-v26::after{content:'';display:block;width:min(190px,48vw);aspect-ratio:1;background:url('assets/icons/morfu/backpack.svg') center/contain no-repeat;margin:auto;filter:drop-shadow(0 18px 18px rgba(70,49,27,.2))}.backpack-visual-v26 img{display:none!important}
+.btn{position:relative;overflow:hidden}.btn::after{content:'';position:absolute;inset:-45% auto -45% -35%;width:22%;transform:rotate(18deg);background:linear-gradient(90deg,transparent,rgba(255,255,255,.72),transparent);transition:left .55s ease}.btn:hover::after{left:120%}.btn:focus-visible{outline:4px solid rgba(255,216,77,.8);outline-offset:4px}
+@media(max-width:600px){.page-badge-v44{font-size:.68rem}.page-badge-v44 img{width:30px;height:30px}.main-nav .morfu-icon-v44{width:40px;height:40px}}
+@media(prefers-reduced-motion:reduce){.hidden-feather-v31{animation:none}.btn::after{display:none}}
+
+
+/* v45 UX & Conversion */
+.visually-hidden-v45{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+.journey-strip-v45{background:linear-gradient(90deg,#fff8df,#eef8dd);border-top:1px solid rgba(84,110,53,.16);border-bottom:1px solid rgba(84,110,53,.16)}
+.journey-inner-v45{max-width:1180px;margin:auto;padding:14px 24px;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;font-weight:700;color:#345522}
+.journey-label-v45{color:#70431c;margin-right:8px}.journey-step-v45{background:#fff;border:1px solid #dce7c8;border-radius:999px;padding:8px 13px;box-shadow:0 5px 14px rgba(58,86,39,.08)}
+.journey-step-v45 b{display:inline-grid;place-items:center;width:23px;height:23px;margin-right:6px;border-radius:50%;background:#e8eddc}.journey-step-v45.is-open b{background:#ffd34e}.journey-arrow-v45{opacity:.45}
+.kit-contents-v45{max-width:760px;margin:26px auto 0;padding:24px;border-radius:24px;background:#fffaf0;border:1px solid #eadbb7;text-align:left}.kit-contents-v45 h3{margin-top:0}.kit-contents-v45 ul{columns:2;column-gap:28px;padding-left:22px}.kit-contents-v45 li{break-inside:avoid;margin:8px 0}.kit-note-v45{font-weight:700;color:#4c6c31}
+.kit-preview-v45{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin:20px auto;max-width:900px}.kit-preview-v45 span{min-height:88px;display:grid;place-items:center;border-radius:18px;background:linear-gradient(145deg,#fff,#f7efd8);border:1px solid #eadbb7;font-weight:800;color:#684521;box-shadow:0 8px 20px rgba(97,70,28,.08)}
+.club-status-grid-v45{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:30px auto 0;max-width:960px;text-align:left}.club-status-grid-v45 article{padding:25px;border-radius:24px;background:#fff;border:1px solid #dce7c8;box-shadow:0 10px 28px rgba(57,80,36,.08)}.club-status-grid-v45 ul{padding-left:22px}.club-status-grid-v45 li{margin:8px 0}
+.book-facts-v45{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:28px 0 0}.book-facts-v45 div{padding:14px;border-radius:16px;background:rgba(255,255,255,.88);border:1px solid rgba(94,104,63,.14)}.book-facts-v45 dt{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:#697458}.book-facts-v45 dd{margin:4px 0 0;font-weight:800;color:#3f2f1f}
+.footer-status-v45{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:14px 0 6px}.footer-status-v45 span{background:rgba(255,255,255,.82);border:1px solid rgba(106,77,35,.15);padding:10px 16px;border-radius:18px;min-width:180px}.footer-status-v45 small{display:block;text-transform:uppercase;letter-spacing:.08em;font-size:.68rem;opacity:.7}.footer-status-v45 strong{display:block;margin-top:3px}
+@media(max-width:760px){.kit-contents-v45 ul{columns:1}.kit-preview-v45{grid-template-columns:repeat(2,1fr)}.club-status-grid-v45{grid-template-columns:1fr}.book-facts-v45{grid-template-columns:repeat(2,1fr)}.journey-arrow-v45{display:none}.journey-inner-v45{justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap}.journey-step-v45{white-space:nowrap}}
+
+/* v46 Explorer Mission launch cards */
+.mission-launch-v46{display:flex;align-items:center;justify-content:space-between;gap:28px;margin:36px auto;padding:clamp(24px,4vw,40px);max-width:1050px;border-radius:30px;background:linear-gradient(135deg,#dffaff,#fff4be);border:3px solid #9fdce4;box-shadow:0 18px 40px rgba(8,86,112,.13)}.mission-launch-copy-v46{max-width:720px}.mission-launch-v46>img{filter:drop-shadow(0 10px 12px rgba(191,128,17,.2));animation:morfuFeatherShimmer 3s ease-in-out infinite}.mission-teaser-v46{text-align:center}.hero-mission-note-v46{margin:12px 0 0}.hero-mission-note-v46 a{display:inline-block;padding:7px 13px;border-radius:999px;background:#eefcff;color:#076f92;font-weight:900;text-decoration:none;border:2px solid #a7dce6}@media(max-width:720px){.mission-launch-v46{flex-direction:column;text-align:center}.mission-launch-v46>img{width:115px;height:115px}}
+
+
+/* v47 — Explorer Missions integrated into their worlds */
+.world-with-missions-v47 {
+  scroll-margin-top: 110px;
+}
+.world-power-v47 {
+  display: inline-flex;
+  align-items: center;
+  gap: .7rem;
+  margin: .35rem 0 1rem;
+  padding: .55rem .85rem;
+  border: 2px solid rgba(43, 113, 143, .18);
+  border-radius: 999px;
+  background: rgba(231, 250, 255, .82);
+}
+.world-power-v47 img {
+  width: 42px;
+  height: 42px;
+}
+.world-power-v47 small,
+.world-power-v47 strong {
+  display: block;
+}
+.world-power-v47 small {
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+  opacity: .72;
+}
+.world-missions-v47 {
+  margin: 1rem 0 1.15rem;
+  padding: 1.15rem;
+  border: 2px solid rgba(224, 168, 37, .24);
+  border-radius: 24px;
+  background: linear-gradient(145deg, rgba(255, 250, 224, .95), rgba(232, 249, 255, .94));
+  box-shadow: 0 14px 34px rgba(67, 91, 105, .10);
+}
+.world-missions-v47 h3 {
+  margin: .1rem 0 .85rem;
+}
+.world-mission-card-v47 {
+  display: grid;
+  grid-template-columns: 60px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: .9rem;
+}
+.world-mission-card-v47 img {
+  width: 54px;
+  height: 54px;
+  filter: drop-shadow(0 8px 10px rgba(203, 147, 25, .18));
+}
+.world-mission-card-v47 strong,
+.world-mission-card-v47 span {
+  display: block;
+}
+.world-mission-card-v47 span {
+  margin-top: .2rem;
+  line-height: 1.4;
+  opacity: .82;
+}
+.world-missions-coming-v47 {
+  margin: .85rem 0 0;
+  font-size: .9rem;
+  font-weight: 700;
+  opacity: .7;
+}
+.book-world-mission-v47 {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  padding: 1rem 1.15rem;
+  border-radius: 26px;
+  border: 2px solid rgba(224, 168, 37, .25);
+  background: linear-gradient(135deg, #fff9db, #e8f8ff);
+}
+.book-world-mission-v47 > img {
+  width: 66px;
+  height: 66px;
+}
+.book-world-mission-v47 h2,
+.book-world-mission-v47 p {
+  margin: .12rem 0;
+}
+.mission-world-nav-v47 {
+  width: min(960px, calc(100% - 24px));
+  margin: 14px auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: .75rem;
+  padding: .7rem .95rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.9);
+  box-shadow: 0 8px 24px rgba(28,75,94,.12);
+  font-weight: 800;
+}
+.mission-world-nav-v47 a {
+  color: inherit;
+  text-decoration: none;
+}
+.mission-world-nav-v47 a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 760px) {
+  .world-mission-card-v47,
+  .book-world-mission-v47 {
+    grid-template-columns: 52px minmax(0, 1fr);
+  }
+  .world-mission-card-v47 .btn,
+  .book-world-mission-v47 .btn {
+    grid-column: 1 / -1;
+    width: 100%;
+    text-align: center;
+  }
+  .mission-world-nav-v47 {
+    border-radius: 20px;
+    font-size: .82rem;
+  }
+}
+
+
+/* v48 — Coral Ocean Hub */
+.coral-ocean-page-v48 {
+  background: #f3fbfd;
+}
+.coral-hero-v48 {
+  position: relative;
+  min-height: 68vh;
+  display: grid;
+  place-items: end start;
+  overflow: hidden;
+  background: url('/assets/banners/banner_dive_into_adventure.webp') center/cover no-repeat;
+}
+.coral-hero-overlay-v48 {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(4,49,71,.86) 0%, rgba(4,49,71,.48) 48%, rgba(4,49,71,.08) 100%);
+}
+.coral-hero-content-v48 {
+  position: relative;
+  z-index: 1;
+  width: min(740px, calc(100% - 32px));
+  margin: 0 auto 7vh max(6vw, 18px);
+  color: white;
+}
+.coral-hero-content-v48 h1 {
+  margin: .35rem 0 .6rem;
+  font-size: clamp(2.5rem, 6vw, 5.7rem);
+  line-height: .98;
+}
+.coral-hero-content-v48 p {
+  max-width: 630px;
+  font-size: clamp(1rem, 2.2vw, 1.35rem);
+}
+.hero-badge-v48 {
+  display: inline-flex;
+  padding: .5rem .85rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.4);
+  backdrop-filter: blur(8px);
+  font-weight: 800;
+}
+.world-nav-v48 {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  gap: .35rem;
+  overflow-x: auto;
+  padding: .72rem max(18px, 4vw);
+  background: rgba(255,255,255,.94);
+  border-bottom: 1px solid rgba(23,105,132,.14);
+  box-shadow: 0 8px 26px rgba(25,81,99,.08);
+}
+.world-nav-v48 a {
+  flex: 0 0 auto;
+  text-decoration: none;
+  color: #174e63;
+  font-weight: 800;
+  padding: .55rem .8rem;
+  border-radius: 999px;
+}
+.world-nav-v48 a:hover {
+  background: #e8f9fd;
+}
+.progress-grid-v48,
+.hub-card-grid-v48,
+.character-grid-v48 {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+}
+.progress-card-v48,
+.hub-action-card-v48,
+.character-card-v48 {
+  border: 2px solid rgba(20,113,143,.12);
+  border-radius: 26px;
+  background: white;
+  padding: 1.15rem;
+  box-shadow: 0 14px 36px rgba(43,89,108,.09);
+}
+.progress-card-v48 {
+  text-align: center;
+}
+.progress-card-v48 img,
+.progress-icon-v48 {
+  display: block;
+  width: 72px;
+  height: 72px;
+  margin: 0 auto .55rem;
+  font-size: 3.3rem;
+  line-height: 72px;
+}
+.progress-card-v48 strong,
+.progress-card-v48 b {
+  display: block;
+}
+.progress-bar-v48 {
+  height: 12px;
+  margin: .7rem 0 .3rem;
+  border-radius: 999px;
+  overflow: hidden;
+  background: #dfeff3;
+}
+.progress-bar-v48 span {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg,#29b7cf,#f2bd3d);
+  transition: width .6s ease;
+}
+.hub-two-col-v48 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: clamp(1.3rem,4vw,3rem);
+}
+.hub-feature-image-v48 {
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 18px 48px rgba(22,75,94,.16);
+}
+.mission-hub-grid-v48 {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0,1fr));
+  gap: 1rem;
+}
+.mission-hub-card-v48 {
+  position: relative;
+  min-height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 28px;
+  padding: 1.05rem;
+  border: 2px solid rgba(20,113,143,.12);
+  background: white;
+  box-shadow: 0 15px 35px rgba(43,89,108,.09);
+}
+.mission-hub-card-v48 img,
+.mission-emoji-v48 {
+  width: 82px;
+  height: 82px;
+  margin: .5rem auto .8rem;
+  align-self: center;
+}
+.mission-emoji-v48 {
+  display: grid;
+  place-items: center;
+  font-size: 3.5rem;
+}
+.mission-number-v48 {
+  font-size: .78rem;
+  font-weight: 900;
+  letter-spacing: .12em;
+  color: #27718b;
+}
+.mission-hub-card-v48 h3 {
+  margin: .2rem 0 .4rem;
+}
+.mission-hub-card-v48 .btn {
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+}
+.mission-locked-v48 {
+  opacity: .7;
+  filter: saturate(.7);
+}
+.hub-action-card-v48 {
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.hub-action-card-v48:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 46px rgba(43,89,108,.14);
+}
+.hub-action-card-v48 img,
+.hub-emoji-v48 {
+  display: block;
+  width: 84px;
+  height: 84px;
+  margin: 0 auto .55rem;
+}
+.hub-emoji-v48 {
+  font-size: 3.5rem;
+  line-height: 84px;
+}
+.character-grid-v48 {
+  grid-template-columns: repeat(3, minmax(0,1fr));
+}
+.character-card-v48 {
+  text-align: center;
+}
+.character-card-v48 img {
+  width: min(210px, 78%);
+  height: auto;
+  margin: 0 auto .6rem;
+}
+.character-placeholder-v48 {
+  width: 150px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto .6rem;
+  border-radius: 50%;
+  background: linear-gradient(145deg,#ffe3f2,#e7f9ff);
+  font-size: 5rem;
+}
+.journal-card-v48,
+.passport-card-v48,
+.next-world-v48 {
+  display: grid;
+  grid-template-columns: 110px minmax(0,1fr);
+  align-items: center;
+  gap: 1.25rem;
+  padding: clamp(1.2rem,3vw,2rem);
+  border-radius: 30px;
+  background: white;
+  box-shadow: 0 16px 40px rgba(43,89,108,.1);
+}
+.journal-card-v48 img {
+  width: 96px;
+  height: 96px;
+}
+.passport-card-v48 {
+  grid-template-columns: 1fr 1fr;
+}
+.passport-list-v48 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.passport-list-v48 li {
+  display: flex;
+  justify-content: space-between;
+  margin: .45rem 0;
+  padding: .65rem .8rem;
+  border-radius: 14px;
+  background: #eef6f8;
+  font-weight: 800;
+}
+.passport-list-v48 .complete-v48 {
+  background: #e4f7e9;
+  color: #20663a;
+}
+.next-world-v48 {
+  grid-template-columns: 1fr auto;
+  background: linear-gradient(135deg,#e8fbf0,#fff4ce);
+}
+.next-world-emoji-v48 {
+  font-size: clamp(5rem,12vw,9rem);
+}
+@media (max-width: 1050px) {
+  .mission-hub-grid-v48 { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .progress-grid-v48 { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .hub-card-grid-v48 { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (max-width: 760px) {
+  .coral-hero-v48 { min-height: 76vh; background-position: 58% center; }
+  .coral-hero-overlay-v48 { background: linear-gradient(0deg,rgba(4,49,71,.88),rgba(4,49,71,.18)); }
+  .coral-hero-content-v48 { margin: 0 16px 4vh; width: calc(100% - 32px); }
+  .hub-two-col-v48,
+  .passport-card-v48,
+  .next-world-v48,
+  .journal-card-v48 { grid-template-columns: 1fr; }
+  .mission-hub-grid-v48,
+  .progress-grid-v48,
+  .hub-card-grid-v48,
+  .character-grid-v48 { grid-template-columns: 1fr; }
+  .mission-hub-card-v48 { min-height: 0; }
+  .next-world-emoji-v48 { text-align: center; }
+}
