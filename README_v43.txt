@@ -1,0 +1,1 @@
+v43 — Animal Powers integration across Home, Meet Morfu, Books, Activities, Parents, Explorer Club, Explore and footer. Correct first-book lore: Dolphin Power, not Octopus Power. Backpack navigation icon corrected from palette to explorer backpack.

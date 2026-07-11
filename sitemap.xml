@@ -54,4 +54,15 @@
     <changefreq>yearly</changefreq>
     <priority>0.30</priority>
   </url>
+  <url>
+    <loc>https://morfu.club/creator</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url><loc>https://morfu.club/discover</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://morfu.club/octopus-facts-for-kids</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://morfu.club/coral-reef-facts-for-kids</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://morfu.club/dolphin-facts-for-kids</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://morfu.club/ocean-activities-for-preschoolers</loc><lastmod>2026-07-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>

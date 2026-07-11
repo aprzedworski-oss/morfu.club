@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://morfu.club/</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/morfu-world-kids-adventure.jpg</image:loc>
+      <image:title>Welcome to Morfu’s World — magical books and activities for little explorers.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/books</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/morfu-little-octopus-book.jpg</image:loc>
+      <image:title>Morfu and the Little Octopus — an interactive ocean adventure for children ages 3–5.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/activities</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/free-printable-kids-activities.jpg</image:loc>
+      <image:title>Free printable Morfu Explorer Backpack activities for children ages 3–5.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/discover</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/ocean-facts-activities-for-kids.jpg</image:loc>
+      <image:title>Child-friendly ocean facts, animal discoveries and preschool activities with Morfu.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/octopus-facts-for-kids</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/octopus-facts-for-kids.jpg</image:loc>
+      <image:title>Save these 10 amazing octopus facts for a curious little explorer.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/coral-reef-facts-for-kids</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/coral-reef-facts-for-kids.jpg</image:loc>
+      <image:title>Save these 9 colourful coral reef facts for children.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/dolphin-facts-for-kids</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/dolphin-facts-for-kids.jpg</image:loc>
+      <image:title>Save these 8 friendly dolphin facts for children.</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://morfu.club/ocean-activities-for-preschoolers</loc>
+    <image:image>
+      <image:loc>https://morfu.club/assets/pinterest/ocean-activities-for-preschoolers.jpg</image:loc>
+      <image:title>Save these 7 easy ocean activities for preschoolers.</image:title>
+    </image:image>
+  </url>
+</urlset>
