@@ -3163,9 +3163,12 @@ img { height: auto; }
 @media (max-width:900px){.main-nav img,.main-nav .morfu-icon-v44,.main-nav .nav-icon-v56{width:42px;height:42px;}.main-nav a{gap:6px;}}
 @media (max-width:600px){.main-nav img,.main-nav .morfu-icon-v44,.main-nav .nav-icon-v56{width:38px;height:38px;}}
 
-/* v59: align Morfu head icons with the rest of the navigation */
-.main-nav a{grid-template-rows:52px auto;align-items:start;}
-.main-nav a img{align-self:start;justify-self:center;margin:0!important;object-position:center center;}
-.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:48px!important;height:48px!important;transform:translateY(-2px);}
-@media (min-width:1100px){.main-nav a{grid-template-rows:56px auto}.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:52px!important;height:52px!important;transform:translateY(-3px);}}
-@media (max-width:900px){.main-nav a{grid-template-rows:46px auto}.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:44px!important;height:44px!important;transform:translateY(-2px);}}
+
+/* v60 precise navigation alignment */
+.main-nav{align-items:start;}
+.main-nav a{display:grid!important;grid-template-rows:58px auto!important;justify-items:center!important;align-items:start!important;gap:5px!important;line-height:1.05!important;}
+.main-nav a img{width:50px!important;height:50px!important;object-fit:contain!important;object-position:center!important;margin:0!important;align-self:center!important;justify-self:center!important;transform:none!important;}
+.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:54px!important;height:54px!important;transform:translateY(-2px)!important;}
+.main-nav a span,.main-nav a{vertical-align:top;}
+@media(max-width:900px){.main-nav a{grid-template-rows:50px auto!important}.main-nav a img{width:44px!important;height:44px!important}.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:47px!important;height:47px!important;transform:translateY(-1px)!important}}
+@media(max-width:600px){.main-nav a{grid-template-rows:45px auto!important}.main-nav a img{width:40px!important;height:40px!important}.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:42px!important;height:42px!important}}
