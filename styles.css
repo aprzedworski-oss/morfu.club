@@ -3172,3 +3172,6 @@ img { height: auto; }
 .main-nav a span,.main-nav a{vertical-align:top;}
 @media(max-width:900px){.main-nav a{grid-template-rows:50px auto!important}.main-nav a img{width:44px!important;height:44px!important}.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:47px!important;height:47px!important;transform:translateY(-1px)!important}}
 @media(max-width:600px){.main-nav a{grid-template-rows:45px auto!important}.main-nav a img{width:40px!important;height:40px!important}.main-nav a[href="index.html"] img,.main-nav a[href="meet-morfu.html"] img{width:42px!important;height:42px!important}}
+
+/* v61 forced nav alignment */
+.main-nav a{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px;min-width:78px}.main-nav img{width:48px!important;height:48px!important;object-fit:contain!important;object-position:center!important;margin:0 auto!important;transform:none!important}.main-nav a:nth-child(1) img,.main-nav a[href="meet-morfu.html"] img{width:50px!important;height:50px!important}

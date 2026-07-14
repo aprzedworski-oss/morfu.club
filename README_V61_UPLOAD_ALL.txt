@@ -1,0 +1,1 @@
+Upload ALL files and folders from this package into repository root. Then open index.html on GitHub and search for morfu_head_nav_v61.png. If it is present, deployment used the correct version.
