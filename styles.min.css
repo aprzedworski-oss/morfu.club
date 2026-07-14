@@ -2745,7 +2745,7 @@ img { height: auto; }
   display: grid;
   place-items: end start;
   overflow: hidden;
-  background: url('/assets/banners/banner_dive_into_adventure.webp') center/cover no-repeat;
+  background: url('/assets/banners/banner_dive_into_adventure.webp?v=56') center/cover no-repeat;
 }
 .coral-hero-overlay-v48 {
   position: absolute;
@@ -3063,7 +3063,7 @@ img { height: auto; }
   overflow: hidden;
   background:
     linear-gradient(90deg, rgba(20,63,35,.88), rgba(20,63,35,.30)),
-    url('/assets/banners/banner_explore_amazing_worlds.webp') center/cover no-repeat;
+    url('/assets/banners/banner_explore_amazing_worlds.webp?v=56') center/cover no-repeat;
 }
 .rainforest-hero-v49 .coral-hero-content-v48 {
   color: white;
@@ -3152,3 +3152,13 @@ img { height: auto; }
 .book-next-world-v52{display:flex;align-items:center;justify-content:space-between;gap:2rem;background:linear-gradient(120deg,#174f47,#307660);color:#fff}.book-next-world-v52>div{max-width:760px}.book-next-world-v52 h2{color:#fff}.book-next-world-v52 .small-label{color:#ffe083}.book-next-world-v52 .btn-secondary{background:#fff;color:#265b4e;white-space:nowrap}.book-final-cta-v52{background:#fff7de}.book-final-panel-v52{max-width:1100px;margin:auto}.book-final-panel-v52 h2{margin:.25rem 0}.book-sales-actions-v52 .btn{min-width:190px}
 @media(max-width:900px){.book-sales-hero-v52,.book-story-card-v52,.book-parent-buy-grid-v52{grid-template-columns:1fr}.book-sales-cover-v52{order:-1}.book-sales-cover-v52 .book-cover{width:min(75vw,390px)}.book-journey-v52{grid-template-columns:repeat(2,1fr)}.book-value-strip-v52{grid-template-columns:1fr}.book-value-strip-v52 article{border-right:0;border-bottom:1px solid rgba(255,255,255,.18)}.book-after-grid-v52{grid-template-columns:1fr}.book-next-world-v52{flex-direction:column;align-items:flex-start}.book-specs-v52{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.book-sales-hero-v52{padding-top:2rem}.book-sales-copy-v52 h1{font-size:2.7rem}.book-journey-v52,.book-specs-v52{grid-template-columns:1fr}.book-sales-actions-v52{display:grid}.book-sales-actions-v52 .btn{width:100%}}
+
+
+/* v56 nav and banner refresh */
+.main-nav img,.main-nav .morfu-icon-v44,.main-nav .nav-icon-v56{width:46px;height:46px;object-fit:contain;filter:drop-shadow(0 5px 7px rgba(65,55,27,.12));}
+.main-nav a{gap:7px;}
+.main-nav a:hover .nav-icon-v56,.main-nav a:focus-visible .nav-icon-v56{transform:translateY(-3px) rotate(-3deg) scale(1.06);filter:drop-shadow(0 8px 10px rgba(65,55,27,.18));}
+.logo img{image-rendering:auto;}
+@media (min-width:1100px){.main-nav img,.main-nav .morfu-icon-v44,.main-nav .nav-icon-v56{width:50px;height:50px;}}
+@media (max-width:900px){.main-nav img,.main-nav .morfu-icon-v44,.main-nav .nav-icon-v56{width:42px;height:42px;}.main-nav a{gap:6px;}}
+@media (max-width:600px){.main-nav img,.main-nav .morfu-icon-v44,.main-nav .nav-icon-v56{width:38px;height:38px;}}

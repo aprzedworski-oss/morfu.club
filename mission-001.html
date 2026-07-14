@@ -1,23 +1,24 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Mission 001: Find the Golden Feather | Morfu.club</title>
-<meta name="description" content="Help Morfu find the hidden Golden Feather in Coral Ocean and unlock Dolphin Power in this free interactive Explorer Mission for young children."/>
-<link rel="canonical" href="https://morfu.club/mission-001"/>
-<meta property="og:title" content="Mission 001: Find the Golden Feather | Morfu.club"/>
-<meta property="og:description" content="A short interactive Coral Ocean mission for little explorers: find the Golden Feather and help Morfu unlock Dolphin Power."/>
-<meta property="og:type" content="website"/>
-<meta property="og:url" content="https://morfu.club/mission-001"/>
-<meta property="og:image" content="https://morfu.club/assets/banners/banner_dive_into_adventure.png"/>
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="robots" content="index, follow, max-image-preview:large"/>
-<meta name="theme-color" content="#0c83a8"/>
-<link rel="icon" href="assets/brand/favicon-32.png" sizes="32x32" type="image/png"/>
-<link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png"/>
-<link rel="stylesheet" href="styles.min.css"/>
-<link rel="stylesheet" href="mission.css"/>
+<meta content="Help Morfu find the hidden Golden Feather in Coral Ocean and unlock Dolphin Power in this free interactive Explorer Mission for young children." name="description"/>
+<link href="https://morfu.club/mission-001" rel="canonical"/>
+<meta content="Mission 001: Find the Golden Feather | Morfu.club" property="og:title"/>
+<meta content="A short interactive Coral Ocean mission for little explorers: find the Golden Feather and help Morfu unlock Dolphin Power." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://morfu.club/mission-001" property="og:url"/>
+<meta content="https://morfu.club/assets/banners/banner_dive_into_adventure.png?v=56" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="#0c83a8" name="theme-color"/>
+<link href="assets/brand/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="assets/brand/apple-touch-icon.png" rel="apple-touch-icon"/>
+<link href="styles.min.css" rel="stylesheet"/>
+<link href="mission.css" rel="stylesheet"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -36,91 +37,85 @@
 <body class="mission-body">
 <a class="skip-link" href="#mission-app">Skip to mission</a>
 <header class="mission-topbar">
-  <a class="mission-brand" href="index.html" aria-label="Return to Morfu.club home">
-    <img src="assets/brand/logo.webp" alt="Morfu.club" width="760" height="356"/>
-  </a>
-  <div class="mission-status" aria-live="polite">
-    <span><img src="assets/icons/morfu/feather.svg" alt="" width="28" height="28"/> Golden Feathers: <strong id="feather-count">0</strong></span>
-    <span><img src="assets/icons/morfu/badge-dolphin.svg" alt="" width="28" height="28"/> Powers: <strong id="power-count">0</strong></span>
-  </div>
-  <a class="mission-exit" href="activities.html">Exit mission</a>
+<a aria-label="Return to Morfu.club home" class="mission-brand" href="index.html">
+<img alt="Morfu.club" height="356" src="assets/brand/logo.webp" width="760"/>
+</a>
+<div aria-live="polite" class="mission-status">
+<span><img alt="" height="28" src="assets/icons/morfu/feather.svg" width="28"/> Golden Feathers: <strong id="feather-count">0</strong></span>
+<span><img alt="" height="28" src="assets/icons/morfu/badge-dolphin.svg" width="28"/> Powers: <strong id="power-count">0</strong></span>
+</div>
+<a class="mission-exit" href="activities.html">Exit mission</a>
 </header>
-
-<nav class="mission-world-nav-v47" aria-label="Mission location">
+<nav aria-label="Mission location" class="mission-world-nav-v47">
 <a href="coral-ocean.html">← Coral Ocean Hub</a>
 <span>Mission 001</span>
 <a href="books.html">Ocean Book</a>
 </nav>
-<main id="mission-app" class="mission-shell">
-  <section id="mission-intro" class="mission-panel mission-intro" aria-labelledby="mission-title">
-    <div class="mission-number">Coral Ocean · Mission 001</div>
-    <img class="mission-feather-mark" src="assets/icons/morfu/feather.svg" alt="Golden Feather" width="110" height="110"/>
-    <h1 id="mission-title">Find the Golden Feather</h1>
-    <p class="mission-story">Explorer! I cannot enter the ocean until we find the Golden Feather. Little Octopus can search the reef, but she needs your sharp eyes.</p>
-    <label class="explorer-name-label" for="explorer-name">Your Explorer name <span>(optional)</span></label>
-    <input id="explorer-name" class="explorer-name" maxlength="18" autocomplete="nickname" placeholder="Little Explorer"/>
-    <button id="start-mission" class="mission-btn mission-btn-primary" type="button">Start Mission</button>
-    <p class="mission-note">No account. No personal data is sent. Your progress stays only on this device.</p>
-  </section>
-
-  <section id="mission-game" class="mission-game" hidden aria-labelledby="game-heading">
-    <div class="mission-dialogue" role="status" aria-live="polite">
-      <img src="assets/icons/icon_morfu_face.webp" alt="Morfu" width="72" height="72"/>
-      <div>
-        <p class="dialogue-name">Morfu says:</p>
-        <p id="game-heading">Look carefully between the corals, shells and sea plants. Can you spot the Golden Feather?</p>
-      </div>
-    </div>
-
-    <div id="reef-scene" class="reef-scene" role="group" aria-label="Colorful Coral Ocean search scene">
-      <picture>
-        <source srcset="assets/banners/banner_dive_into_adventure.webp" type="image/webp"/>
-        <img src="assets/banners/banner_dive_into_adventure.png" alt="Morfu and Little Octopus exploring a colorful coral reef" width="739" height="330"/>
-      </picture>
-      <button id="golden-feather" class="hidden-feather" type="button" aria-label="Golden Feather hidden in the coral reef">
-        <img src="assets/icons/morfu/feather.svg" alt="" width="82" height="82"/>
-      </button>
-      <div class="bubble bubble-one" aria-hidden="true"></div>
-      <div class="bubble bubble-two" aria-hidden="true"></div>
-      <div class="bubble bubble-three" aria-hidden="true"></div>
-    </div>
-
-    <div class="mission-controls">
-      <p id="mission-hint">Tap the reef to search. The feather is partly hidden.</p>
-      <button id="show-hint" class="mission-btn mission-btn-secondary" type="button">Give me a hint</button>
-    </div>
-  </section>
-
-  <section id="mission-complete" class="mission-panel mission-complete" hidden aria-labelledby="complete-title">
-    <div class="celebration" aria-hidden="true">✨ 🪶 ✨</div>
-    <p class="mission-number">Mission Complete</p>
-    <h2 id="complete-title">You found it!</h2>
-    <p id="complete-message">You helped Morfu and Little Octopus find the Golden Feather.</p>
-    <div class="power-unlock-card">
-      <img src="assets/icons/morfu/badge-dolphin.svg" alt="Dolphin Power badge" width="150" height="150"/>
-      <div>
-        <span class="unlocked-label">Animal Power Unlocked</span>
-        <h3>Dolphin Power</h3>
-        <p>Morfu can now move through the water — but he still needs your help to choose the right path.</p>
-      </div>
-    </div>
-    <div class="mission-reward-row">
-      <div><strong>1</strong><span>Golden Feather</span></div>
-      <div><strong>1</strong><span>Mission completed</span></div>
-      <div><strong>🐬</strong><span>Dolphin Power</span></div>
-    </div>
-    <div class="mission-finish-actions">
-      <button id="play-again" class="mission-btn mission-btn-secondary" type="button">Play again</button>
-      <a class="mission-btn mission-btn-primary" href="activities.html">Open Explorer Backpack</a>
-      <a class="mission-btn mission-btn-soft" href="coral-ocean.html">Back to Coral Ocean Hub</a>
-    </div>
-  </section>
+<main class="mission-shell" id="mission-app">
+<section aria-labelledby="mission-title" class="mission-panel mission-intro" id="mission-intro">
+<div class="mission-number">Coral Ocean · Mission 001</div>
+<img alt="Golden Feather" class="mission-feather-mark" height="110" src="assets/icons/morfu/feather.svg" width="110"/>
+<h1 id="mission-title">Find the Golden Feather</h1>
+<p class="mission-story">Explorer! I cannot enter the ocean until we find the Golden Feather. Little Octopus can search the reef, but she needs your sharp eyes.</p>
+<label class="explorer-name-label" for="explorer-name">Your Explorer name <span>(optional)</span></label>
+<input autocomplete="nickname" class="explorer-name" id="explorer-name" maxlength="18" placeholder="Little Explorer"/>
+<button class="mission-btn mission-btn-primary" id="start-mission" type="button">Start Mission</button>
+<p class="mission-note">No account. No personal data is sent. Your progress stays only on this device.</p>
+</section>
+<section aria-labelledby="game-heading" class="mission-game" hidden="" id="mission-game">
+<div aria-live="polite" class="mission-dialogue" role="status">
+<img alt="Morfu" height="72" src="assets/icons/icon_morfu_face.webp" width="72"/>
+<div>
+<p class="dialogue-name">Morfu says:</p>
+<p id="game-heading">Look carefully between the corals, shells and sea plants. Can you spot the Golden Feather?</p>
+</div>
+</div>
+<div aria-label="Colorful Coral Ocean search scene" class="reef-scene" id="reef-scene" role="group">
+<picture>
+<source srcset="assets/banners/banner_dive_into_adventure.webp?v=56" type="image/webp"/>
+<img alt="Morfu and Little Octopus exploring a colorful coral reef" height="330" src="assets/banners/banner_dive_into_adventure.png?v=56" width="739"/>
+</picture>
+<button aria-label="Golden Feather hidden in the coral reef" class="hidden-feather" id="golden-feather" type="button">
+<img alt="" height="82" src="assets/icons/morfu/feather.svg" width="82"/>
+</button>
+<div aria-hidden="true" class="bubble bubble-one"></div>
+<div aria-hidden="true" class="bubble bubble-two"></div>
+<div aria-hidden="true" class="bubble bubble-three"></div>
+</div>
+<div class="mission-controls">
+<p id="mission-hint">Tap the reef to search. The feather is partly hidden.</p>
+<button class="mission-btn mission-btn-secondary" id="show-hint" type="button">Give me a hint</button>
+</div>
+</section>
+<section aria-labelledby="complete-title" class="mission-panel mission-complete" hidden="" id="mission-complete">
+<div aria-hidden="true" class="celebration">✨ 🪶 ✨</div>
+<p class="mission-number">Mission Complete</p>
+<h2 id="complete-title">You found it!</h2>
+<p id="complete-message">You helped Morfu and Little Octopus find the Golden Feather.</p>
+<div class="power-unlock-card">
+<img alt="Dolphin Power badge" height="150" src="assets/icons/morfu/badge-dolphin.svg" width="150"/>
+<div>
+<span class="unlocked-label">Animal Power Unlocked</span>
+<h3>Dolphin Power</h3>
+<p>Morfu can now move through the water — but he still needs your help to choose the right path.</p>
+</div>
+</div>
+<div class="mission-reward-row">
+<div><strong>1</strong><span>Golden Feather</span></div>
+<div><strong>1</strong><span>Mission completed</span></div>
+<div><strong>🐬</strong><span>Dolphin Power</span></div>
+</div>
+<div class="mission-finish-actions">
+<button class="mission-btn mission-btn-secondary" id="play-again" type="button">Play again</button>
+<a class="mission-btn mission-btn-primary" href="activities.html">Open Explorer Backpack</a>
+<a class="mission-btn mission-btn-soft" href="coral-ocean.html">Back to Coral Ocean Hub</a>
+</div>
+</section>
 </main>
-
 <footer class="mission-footer">
-  <p>Mission 001 belongs to Morfu’s Coral Ocean adventure.</p>
-  <a href="parents.html">Information for grown-ups</a>
+<p>Mission 001 belongs to Morfu’s Coral Ocean adventure.</p>
+<a href="parents.html">Information for grown-ups</a>
 </footer>
-<script src="mission.js" defer></script>
+<script defer="" src="mission.js"></script>
 </body>
 </html>
