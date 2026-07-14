@@ -3110,3 +3110,31 @@ img { height: auto; }
     grid-template-columns: 1fr;
   }
 }
+/* Home v50 — focused seven-section homepage */
+.home-v50 .section{padding-top:88px;padding-bottom:88px}
+.hero-v50 .hero-actions{max-width:640px}
+.home-book-v50{background:linear-gradient(180deg,#fffdf7 0%,#fff7df 100%)}
+.home-book-grid-v50{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:minmax(300px,.85fr) minmax(360px,1.15fr);gap:72px;align-items:center}
+.home-book-visual-v50{text-align:center}
+.home-book-visual-v50 img{width:min(100%,480px);height:auto;border-radius:24px;box-shadow:0 24px 60px rgba(64,52,28,.2);transform:rotate(-1deg)}
+.home-book-copy-v50 h2{font-size:clamp(2.2rem,4vw,4.2rem);margin:.2em 0}
+.home-book-copy-v50>p{font-size:1.15rem;line-height:1.7}
+.home-checks-v50{list-style:none;padding:0;margin:28px 0;display:grid;gap:12px}
+.home-checks-v50 li{position:relative;padding-left:34px;font-weight:700}
+.home-checks-v50 li:before{content:'✓';position:absolute;left:0;color:#e18b19;font-weight:900}
+.journey-cards-v50{max-width:1180px;margin:44px auto 0;display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.journey-cards-v50 article{position:relative;background:#fff;border:1px solid rgba(57,88,66,.12);border-radius:28px;padding:34px 30px;box-shadow:0 14px 38px rgba(55,70,54,.09)}
+.journey-cards-v50 img{width:64px;height:64px}.journey-cards-v50 article>span{position:absolute;right:24px;top:24px;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#ffdc73;font-weight:900}
+.journey-cards-v50 h3{font-size:1.5rem;margin:18px 0 8px}.journey-cards-v50 p{line-height:1.65}.journey-cards-v50 a{display:inline-block;margin-top:10px;font-weight:900;color:#145a54}
+.home-map-v50 .home-map-shell-v50{max-width:1050px;margin-left:auto;margin-right:auto}
+.home-map-v50 .map-paper-v29{min-height:590px}
+.home-map-v50 .home-more-worlds-v50{left:50%;right:auto;bottom:8%;top:auto;transform:translateX(-50%)}
+.home-map-v50 .path-three-v29,.home-map-v50 .path-four-v29,.home-map-v50 .path-five-v30,.home-map-v50 .path-six-v30{display:none}
+.home-parents-v50 .parents-layout-v27{align-items:center}.home-parent-benefits-v50{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:28px 0}
+.home-parent-benefits-v50 span{background:#fff;border-radius:16px;padding:14px 16px;font-weight:800;box-shadow:0 8px 24px rgba(43,63,47,.08)}
+.home-club-v50{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center}
+.home-club-card-v50{display:grid;grid-template-columns:170px 1fr;gap:24px;align-items:center}
+.home-kit-preview-v50{width:100%;height:auto;border-radius:16px;box-shadow:0 12px 30px rgba(42,43,53,.18)}
+.site-footer-premium-v32 .footer-links-v32{padding-top:46px}
+@media(max-width:900px){.home-book-grid-v50,.home-club-v50{grid-template-columns:1fr}.journey-cards-v50{grid-template-columns:1fr}.home-book-grid-v50{gap:36px}.home-club-card-v50{grid-template-columns:130px 1fr}.home-map-v50 .map-paper-v29{min-height:680px}.home-parent-benefits-v50{grid-template-columns:1fr}}
+@media(max-width:620px){.home-v50 .section{padding-top:62px;padding-bottom:62px}.home-club-card-v50{grid-template-columns:1fr}.home-kit-preview-v50{max-width:180px;margin:0 auto}.home-map-v50 .home-more-worlds-v50{left:50%;bottom:4%}.home-book-copy-v50 .button-row{align-items:stretch}.home-book-copy-v50 .btn{width:100%}}
