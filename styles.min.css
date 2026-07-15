@@ -3175,3 +3175,68 @@ img { height: auto; }
 
 /* v61 forced nav alignment */
 .main-nav a{display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px;min-width:78px}.main-nav img{width:48px!important;height:48px!important;object-fit:contain!important;object-position:center!important;margin:0 auto!important;transform:none!important}.main-nav a:nth-child(1) img,.main-nav a[href="meet-morfu.html"] img{width:50px!important;height:50px!important}
+
+
+/* v62 FINAL NAV ALIGNMENT — authoritative override */
+.site-header .main-nav{
+  align-items:start !important;
+  justify-content:center !important;
+  column-gap:14px !important;
+}
+.site-header .main-nav a{
+  display:grid !important;
+  grid-template-rows:62px 24px !important;
+  align-content:start !important;
+  justify-items:center !important;
+  align-items:center !important;
+  width:104px !important;
+  min-width:104px !important;
+  padding:0 !important;
+  margin:0 !important;
+  gap:0 !important;
+  line-height:1 !important;
+  text-align:center !important;
+  white-space:nowrap !important;
+}
+.site-header .main-nav a[href="meet-morfu.html"]{
+  width:118px !important;
+  min-width:118px !important;
+}
+.site-header .main-nav a img,
+.site-header .main-nav a .morfu-icon-v44,
+.site-header .main-nav a .nav-icon-v56{
+  width:52px !important;
+  height:52px !important;
+  max-width:52px !important;
+  max-height:52px !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  margin:0 !important;
+  padding:0 !important;
+  transform:none !important;
+  align-self:center !important;
+  justify-self:center !important;
+}
+.site-header .main-nav a[href="index.html"] img,
+.site-header .main-nav a[href="meet-morfu.html"] img{
+  width:56px !important;
+  height:56px !important;
+  max-width:56px !important;
+  max-height:56px !important;
+  transform:none !important;
+}
+@media (max-width:1100px){
+  .site-header .main-nav{column-gap:8px !important;}
+  .site-header .main-nav a{width:88px !important;min-width:88px !important;font-size:12px !important;}
+  .site-header .main-nav a[href="meet-morfu.html"]{width:104px !important;min-width:104px !important;}
+}
+@media (max-width:900px){
+  .site-header .main-nav a{
+    display:flex !important;
+    flex-direction:column !important;
+    width:auto !important;
+    min-width:0 !important;
+    white-space:normal !important;
+    gap:5px !important;
+  }
+}
