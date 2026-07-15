@@ -1,0 +1,11 @@
+MORFU V64 READY
+
+1. Open your GitHub repository.
+2. Upload ALL files and folders from this package to the repository root.
+3. Select Replace/overwrite existing files.
+4. Commit changes.
+
+Changes:
+- Morfu and the Little Sloth marked as published.
+- Amazon paperback link added: https://www.amazon.com/dp/B0H8S2ZWBT
+- Books and Explore pages updated.
