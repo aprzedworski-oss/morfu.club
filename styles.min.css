@@ -3222,3 +3222,5 @@ img { height: auto; }
 @media(max-width:900px){
   .site-header .main-nav a{display:flex!important;flex-direction:column!important;width:auto!important;min-width:0!important;white-space:normal!important;gap:5px!important;}
 }
+
+.books-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:32px}.book-card{background:#fff;border-radius:24px;padding:24px;text-align:center}.book-card img{width:100%;max-width:280px;margin:0 auto 20px}@media(max-width:800px){.books-grid{grid-template-columns:1fr}}
