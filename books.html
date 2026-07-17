@@ -33,11 +33,16 @@
   border-radius:30px;
   padding:30px;
   box-shadow:0 10px 30px rgba(0,0,0,.12);
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  min-height:850px;
 }
 
 .book-card img{
   width:100%;
-  max-width:380px;
+  height:520px;
+  object-fit:contain;
   border-radius:20px;
 }
 
@@ -86,6 +91,15 @@ height:420px;
 object-fit:contain;
 }
 
+.series-label{
+display:inline-block;
+margin-bottom:12px;
+padding:7px 18px;
+border-radius:20px;
+background:#fff2b8;
+color:#173b5c;
+font-weight:bold;
+}
 </style>
 
 </head>
@@ -115,7 +129,7 @@ courage and discovery.
 <img src="assets/books/morfu_little_octopus_cover.webp"
 alt="Morfu and the Little Octopus">
 
-<div class="book-badge">🐚 Ocean Adventure</div><h2>Morfu and the Little Octopus</h2>
+<div class="book-badge">🐚 Ocean Adventure</div><div class="series-label">Book 1 • Ocean Adventure</div><h2>Morfu and the Little Octopus</h2>
 
 <p>
 An ocean adventure about friendship, courage and helping a little octopus find his way home.
@@ -134,7 +148,7 @@ Explore Book
 <img src="assets/books/morfu_little_sloth_cover.png"
 alt="Morfu and the Little Sloth">
 
-<div class="book-badge">🌿 Amazon Rainforest Adventure</div><h2>Morfu and the Little Sloth</h2>
+<div class="book-badge">🌿 Amazon Rainforest Adventure</div><div class="series-label">Book 2 • Amazon Rainforest Adventure</div><h2>Morfu and the Little Sloth</h2>
 
 <p>
 Travel to the Amazon rainforest and help a new friend discover courage, patience and confidence.
