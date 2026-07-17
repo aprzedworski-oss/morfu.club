@@ -3224,3 +3224,7 @@ img { height: auto; }
 }
 
 .books-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px;margin-top:32px}.book-card{background:#fff;border-radius:24px;padding:24px;text-align:center}.book-card img{width:100%;max-width:280px;margin:0 auto 20px}@media(max-width:800px){.books-grid{grid-template-columns:1fr}}
+.books-grid{align-items:stretch}
+.book-card{display:flex;flex-direction:column;height:100%}
+.book-card img{height:420px;object-fit:contain;border-radius:18px}
+.book-card .btn{margin-top:auto}
