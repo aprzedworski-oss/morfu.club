@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Morfu Books — Magical Adventures</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+.books-page{
+  max-width:1200px;
+  margin:60px auto;
+  padding:20px;
+  text-align:center;
+}
+
+.books-page h1{
+  font-size:48px;
+  color:#173b5c;
+}
+
+.books-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:40px;
+  margin-top:50px;
+}
+
+.book-card{
+  background:white;
+  border-radius:30px;
+  padding:30px;
+  box-shadow:0 10px 30px rgba(0,0,0,.12);
+}
+
+.book-card img{
+  width:100%;
+  max-width:380px;
+  border-radius:20px;
+}
+
+.book-card h2{
+  color:#173b5c;
+  margin-top:25px;
+}
+
+.book-card p{
+  font-size:18px;
+  line-height:1.5;
+}
+
+.book-btn{
+  display:inline-block;
+  margin-top:20px;
+  background:#ffc83d;
+  padding:14px 30px;
+  border-radius:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#173b5c;
+}
+
+@media(max-width:800px){
+.books-grid{
+ grid-template-columns:1fr;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Morfu Adventures</h1>
+</header>
+
+
+<main class="books-page">
+
+<h1>Explore Morfu Stories</h1>
+
+<p>
+Choose an adventure and join Morfu on magical journeys full of friendship,
+courage and discovery.
+</p>
+
+
+<div class="books-grid">
+
+
+<div class="book-card">
+
+<img src="assets/books/morfu_little_octopus_cover.webp"
+alt="Morfu and the Little Octopus">
+
+<h2>Morfu and the Little Octopus</h2>
+
+<p>
+An ocean adventure about friendship, courage and helping a little octopus find his way home.
+</p>
+
+<a class="book-btn" href="morfu-little-octopus.html">
+Explore Book
+</a>
+
+</div>
+
+
+
+<div class="book-card">
+
+<img src="assets/books/morfu_little_sloth_cover.png"
+alt="Morfu and the Little Sloth">
+
+<h2>Morfu and the Little Sloth</h2>
+
+<p>
+Travel to the Amazon rainforest and help a new friend discover courage, patience and confidence.
+</p>
+
+<a class="book-btn" href="morfu-little-sloth.html">
+Explore Book
+</a>
+
+</div>
+
+
+</div>
+
+</main>
+
+</body>
+</html>
